@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   box-shadow: 2px;
+
+  }
+  
+  .card {
+    
+    padding: 5px;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+    min-height: 300px;
+    min-width: 250px;
+    margin: 3px;
+    
+  }
+  
+  input[type="text"] {
+    height: 40px;
+    width: 100%;
+    border-radius: 3px;
+    border: 0.5px solid blueviolet;
+    outline: none;
+    padding: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+    border: 1px;
+    background-color: slategray;
+  
+  }
+  .input-control {
+    width: 90%;
+    padding: 2px;
+    
+    
+  }
+  .con {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4px;
+    width: 300px;
+    padding: 10px;
+    gap: 4px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px;
+    padding: 4px;
+    background-color: aliceblue;
+  }
+  
+  button {
+    height: 40px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 3px;
+    color: white;
+    margin-left: 5px;
+  }
+  
+  
+  button:hover {
+    background-color: white;
+    color: blueviolet;
+    cursor: pointer;
+  }
+  
+  .main--container {
+    width: 80%;
+    min-height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+  .row {
+    display: flex;
+    gap: 4px;
+    background-color: blueviolet;
+    
+    flex-direction: column;
+    margin: 30px;
+    padding: 3px;
+
+    
+    
+    
+  }
+  .img {
+    width: 250px;
+  }
+  .title {
+    
+    text-decoration: whitesmoke;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+
+  }
+  
+  .report {
+    width: 250px;
+    margin-bottom: 15px;
+    margin: 5px;
+    font-weight: bolder;
+    padding: 2px;
+    text-decoration: white;
+    background-color: whitesmoke;
+    
+  }
+  
+  .column {
+   
+    margin: 4px;
+    gap: 4px;
+    flex: 50%;
+    
+
+  }
+  
+  
